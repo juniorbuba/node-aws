@@ -1,0 +1,22 @@
+{
+  "name": "node-aws",
+  "version": "1.0.0",
+  "description": "First try at deploying node project to AWS Elastic Beanstalk",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juniorbuba/node-aws.git"
+  },
+  "author": "juniorbuba <juniorbuba4real@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juniorbuba/node-aws/issues"
+  },
+  "homepage": "https://github.com/juniorbuba/node-aws#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
