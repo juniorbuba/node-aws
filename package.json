@@ -4,7 +4,7 @@
   "description": "First try at deploying node project to AWS Elastic Beanstalk",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node start"
   },
   "repository": {
     "type": "git",
