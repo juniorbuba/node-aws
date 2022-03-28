@@ -1,4 +1,5 @@
 const express = require('express')
+const PORT = process.env.PORT || 3000
 
 const app = express()
 
@@ -7,9 +8,9 @@ app.get('/', (req, res) => {
 })
 
 app.get('/test', (req, res) => {
-    res.send('YO!, I am running on AWS baby')
+    res.send('YO!, I am running on AWS, baby test')
 })
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log('Up and running on port 3000')
 })

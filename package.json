@@ -4,7 +4,7 @@
   "description": "First try at deploying node project to AWS Elastic Beanstalk",
   "main": "app.js",
   "scripts": {
-    "start": "node start"
+    "start": "node app"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/juniorbuba/node-aws#readme",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "express": "^4.17.3"
   }
 }
